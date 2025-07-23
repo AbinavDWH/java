@@ -1,0 +1,81 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": ""
+        },
+        {
+            "name": "Attach to Process",
+            "type": "jdk",
+            "request": "attach",
+            "processId": "${command:jdk.java.attachDebugger.pickProcess}"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "JavaIfElse",
+            "request": "launch",
+            "mainClass": "JavaIfElse",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "Java_Stdin_and_Stdout_II",
+            "request": "launch",
+            "mainClass": "Java_Stdin_and_Stdout_II",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "bank",
+            "request": "launch",
+            "mainClass": "bank",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "constructor(function Object() { [native code] }1)",
+            "request": "launch",
+            "mainClass": "constructor",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "pattten",
+            "request": "launch",
+            "mainClass": "pattten",
+            "projectName": "java_c3552c0"
+        }
+    ]
+}

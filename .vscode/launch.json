@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Two_Sum",
+            "request": "launch",
+            "mainClass": "Two_Sum",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "hNv",
+            "request": "launch",
+            "mainClass": "hNv",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "loop",
+            "request": "launch",
+            "mainClass": "loop",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
             "name": "Launch Java Program",
             "request": "launch",
             "mainClass": ""

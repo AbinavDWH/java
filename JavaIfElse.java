@@ -14,4 +14,6 @@ public class JavaIfElse {
     else if (N>20) System.out.println("Not Weird"); 
         scanner.close();
     }
+    hello h=new hello();
+    
 }

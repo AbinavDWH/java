@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "car",
+            "request": "launch",
+            "mainClass": "car",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
             "name": "Two_Sum",
             "request": "launch",
             "mainClass": "Two_Sum",

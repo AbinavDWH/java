@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "REC_OOPS_using_Java_Week_2_Q3",
+            "request": "launch",
+            "mainClass": "REC_OOPS_using_Java_Week_2_Q3",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
             "name": "REC_OOPS_using_Java_Week_1_Q1",
             "request": "launch",
             "mainClass": "REC_OOPS_using_Java_Week_1_Q1",

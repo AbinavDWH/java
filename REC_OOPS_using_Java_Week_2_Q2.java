@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 class REC_OOPS_using_Java_Week_2_Q2{
     public static void main(String arg[]){
         Scanner scan=new Scanner(System.in);

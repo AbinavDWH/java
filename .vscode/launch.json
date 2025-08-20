@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "game",
+            "request": "launch",
+            "mainClass": "game",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "REC_OOPS_using_Java_Week_2_Q7",
+            "request": "launch",
+            "mainClass": "REC_OOPS_using_Java_Week_2_Q7",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
             "name": "REC_OOPS_using_Java_Week_2_Q3",
             "request": "launch",
             "mainClass": "REC_OOPS_using_Java_Week_2_Q3",

@@ -1,3 +1,4 @@
+
 // Ravi is working as a developer for SecureLogin Systems, which wants to build a system to evaluate the strength of user passwords.
 
 
@@ -98,7 +99,55 @@
 // Password: password
 // Password Strength: Weak
 
+import java.util.Scanner;
+import java.util.regex.*;
 
-public class REC_OOPS_using_Java_Week_5_PAH {
-        
+
+class login{
+    private int userid;
+    String uname,pass;
+    
+    login(int userid,String uname,String pass){
+        this.userid=userid;
+        this.uname=uname;
+        this.pass=pass;
+    }
+    
+    Pattern l=Pattern.compile("[a-z]");
+    Pattern u=Pattern.compile("[A-Z]");
+    Pattern d=Pattern.compile("[0-9]");
+    Pattern s=Pattern.compile("[!@#$%&*^]");
+    
+    void checkpass(){
+        String str="Weak";
+        boolean L=l.matcher(pass).find();
+        boolean U=u.matcher(pass).find();
+        boolean S=s.matcher(pass).find();
+        boolean D=d.matcher(pass).find();
+        if(L&&U&&S&&D&&pass.length()>=8){
+            str="Strong";
+        }
+        System.out.println("User ID: "+userid);
+        System.out.println("User Name: "+uname);
+        System.out.println("Password: "+pass);
+        System.out.println("Password Strength: "+str);
+    }
+    
+}
+
+
+
+public class REC_OOPS_using_Java_Week_5_PAH_1 {
+    public static void main(String arg[]){
+        Scanner scan=new Scanner(System.in);
+        int n=scan.nextInt();
+        for(int i=0;i<n;i++){
+            int id=scan.nextInt();
+            scan.nextLine();
+            String name=scan.nextLine();
+            String pass=scan.nextLine();
+            var obj=new login(id,name,pass);
+            obj.checkpass();
+        }
+    }    
 }

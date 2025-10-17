@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "REC_OOPS_using_Java_Week_8_Q4",
+            "request": "launch",
+            "mainClass": "REC_OOPS_using_Java_Week_8_Q4",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "REC_OOPS_using_Java_Week_8_Q1",
+            "request": "launch",
+            "mainClass": "REC_OOPS_using_Java_Week_8_Q1",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "REC_2028_OOPS_using_Java_Week_3_CY_1",
+            "request": "launch",
+            "mainClass": "REC_2028_OOPS_using_Java_Week_3_CY_1",
+            "projectName": "java_c3552c0"
+        },
+        {
+            "type": "java",
+            "name": "Launch External Terminal",
+            "request": "launch",
+            "console": "externalTerminal",
+            "mainClass": ""
+        },
+        {
+            "name": "Attach to Port",
+            "type": "jdk",
+            "request": "attach",
+            "hostName": "${command:jdk.java.attachDebugger.connector.com.sun.jdi.SocketAttach.hostName}",
+            "port": "${command:jdk.java.attachDebugger.connector.com.sun.jdi.SocketAttach.port}"
+        }
+    ]
+}
